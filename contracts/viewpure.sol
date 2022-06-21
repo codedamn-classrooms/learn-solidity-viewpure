@@ -7,20 +7,20 @@ contract viewpure {
     uint256 b = 2;
     uint256 e = 5;
 
-    function variableA() public view returns (uint256) {
+    function variableA() public returns (uint256) {
         return a;
     }
 
-    function variableB() public view returns (uint256) {
+    function variableB() public returns (uint256) {
         return b + 1;
     }
 
-    function variableC() public pure returns (uint256) {
+    function variableC() public returns (uint256) {
         uint256 c = 3;
         return c;
     }
 
-    function variableD() public pure returns (uint256) {
+    function variableD() public returns (uint256) {
         uint256 d = 4;
         return d + 1;
     }
